@@ -3,6 +3,7 @@ import Navbar from "../component/Navbar";
 import HomeCover from "../component/HomeCover";
 import HomeFilm from "../component/HomeFilm";
 import HomeReason from "../component/HomeReason";
+import Footer from "../component/Footer";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HomeCover />
       <HomeFilm />
       <HomeReason />
+      <Footer />
     </>
   );
 }
