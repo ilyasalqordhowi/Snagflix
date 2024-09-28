@@ -10,7 +10,7 @@ function Navbar() {
     i18n.changeLanguage(event.target.value);
   }
   return (
-    <div className="flex fixed z-10 w-full items-center justify-between pt-10 pb-10 pl-20 pr-20">
+    <div className="flex fixed z-10 bg-black/30 w-full items-center justify-between pt-10 pb-10 pl-20 pr-20">
       <div className="w-48">
         <img src={Logo} alt="logo" />
       </div>

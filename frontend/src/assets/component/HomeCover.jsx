@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 function HomeCover() {
   return (
-    <div className="fixed flex justify-center items-center">
+    <div className=" flex justify-center items-center">
       <div className="flex  brightness-50">
         <img src={Netflix} alt="" />
       </div>
