@@ -13,7 +13,7 @@ function Footer() {
         <h1 className="text-white  font-bold text-[20px] font-serif">
           Have questions? Call 088-881-992-9292
         </h1>
-        <div className="flex gap-[100px]">
+        <div className="md:flex gap-[100px]">
           <ul className="text-slate-400 flex flex-col gap-3">
             <li className="hover:underline-offset-2 underline decoration-2 hover:text-slate-200  hover:decoration-slate-200">
               Question and answer
@@ -74,7 +74,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="flex border-2 p-3 border-white gap-3 rounded-lg  w-[200px]">
+        <div className="flex border-2 p-3 border-white gap-3 rounded-lg  w-[150px]">
           <label className="text-xl text-white" htmlFor="language-select">
             <FaGlobe />
           </label>

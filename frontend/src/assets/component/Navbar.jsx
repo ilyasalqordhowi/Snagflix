@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../img/SnagFlix.png";
+import LogoS from "../img/logo-s.png";
 import { FaGlobe } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -11,8 +12,11 @@ function Navbar() {
   }
   return (
     <div className="flex fixed z-10 bg-black/30 w-full items-center justify-between pt-10 pb-10 pl-20 pr-20">
-      <div className="w-48">
+      <div className="md:flex hidden w-48">
         <img src={Logo} alt="logo" />
+      </div>
+      <div>
+        <img src={LogoS} alt="logo-s" className="md:hidden" />
       </div>
       <div className="flex items-center gap-5">
         <div className="flex border-2 p-3 border-white gap-3 rounded-lg ">

@@ -6,13 +6,13 @@ import Kids from "../img/kids.png";
 
 function HomeReason() {
   return (
-    <div className="flex  justify-center  bg-black p-7">
-      <div className="flex flex-col gap-5 justify-center">
-        <h1 className="text-white  font-bold text-[50px] font-serif">
+    <div className="flex justify-center bg-black p-7">
+      <div className="flex flex-col gap-5 justify-center w-full max-w-7xl">
+        <h1 className="text-white font-bold text-[40px] sm:text-[50px] font-serif text-center">
           More Reasons to Join
         </h1>
         <div className="md:grid flex flex-col md:grid-cols-2 gap-10">
-          <div className="flex flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl w-[400px] p-5 justify-center  gap-5">
+          <div className="flex flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl p-5 justify-center gap-20">
             <div>
               <h2 className="text-white font-bold text-[20px]">
                 Enjoy on your TV
@@ -22,9 +22,14 @@ function HomeReason() {
                 Blu-ray players and more.
               </p>
             </div>
-            <img src={Laptop} alt="laptop" className="flex" />
+            <img
+              src={Laptop}
+              alt="laptop"
+              className="w-32 h-24 object-contain"
+            />
           </div>
-          <div className="flex flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl w-[400px] p-5 justify-center  gap-5">
+
+          <div className="flex flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl p-5 justify-center gap-5">
             <div>
               <h2 className="text-white font-bold text-[20px]">
                 Download TV shows to watch them offline
@@ -36,7 +41,8 @@ function HomeReason() {
             </div>
             <img src={Download} alt="download" className="w-20 mt-10 mb-20" />
           </div>
-          <div className="flex flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl w-[400px] p-5 justify-center  gap-5">
+
+          <div className="flex flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl p-5 justify-center gap-5">
             <div>
               <h2 className="text-white font-bold text-[20px]">
                 Watch anywhere
@@ -46,10 +52,15 @@ function HomeReason() {
                 laptop and TV.
               </p>
             </div>
-            <img src={Glasess} alt="glasess" className="flex" />
+            <img
+              src={Glasess}
+              alt="glasses"
+              className="w-24 h-24 object-contain"
+            />
           </div>
-          <div className="flex  flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl w-[400px] p-5 justify-center  gap-5">
-            <div className="flex flex-col ">
+
+          <div className="flex flex-col items-center bg-gradient-to-r from-blue-950/30 via-fuchsia-900/20 to-red-900/25 rounded-xl p-5 justify-center gap-5">
+            <div>
               <h2 className="text-white font-bold text-[20px]">
                 Create a profile for your child
               </h2>
@@ -58,11 +69,7 @@ function HomeReason() {
                 created just for them — free with your membership.
               </p>
             </div>
-            <img
-              src={Kids}
-              alt="kids"
-              className="flex w-20 mt-10 mb-20 items-center justify-center"
-            />
+            <img src={Kids} alt="kids" className="w-24 h-24 object-contain" />
           </div>
         </div>
       </div>
